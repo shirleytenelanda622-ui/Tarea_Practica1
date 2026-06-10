@@ -20,6 +20,6 @@
       <TextField layoutX="106.0" layoutY="281.0" promptText="Ingrese la cantidad" />
       <DatePicker layoutX="168.0" layoutY="319.0" />
       <Label layoutX="41.0" layoutY="323.0" text="Fecha de expiracion:" />
-      <Button layoutX="236.0" layoutY="361.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: black;" text="Salir" textFill="#fffcfc" />
+      <Button fx:id="btnSalir" layoutX="236.0" layoutY="361.0" mnemonicParsing="false" onAction="#cerrar" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: black;" text="Salir" textFill="#fffcfc" />
    </children>
 </AnchorPane>
