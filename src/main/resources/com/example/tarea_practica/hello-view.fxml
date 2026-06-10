@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tarea_practica.HelloController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="470.0" prefWidth="400.0" spacing="20.0" style="-fx-background-color: linear-gradient(to right, #EBF9F6, #C8EFE7, #2E90D1);">
+          <padding>
+              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+          </padding>
+         <TilePane prefHeight="81.0" prefWidth="360.0" style="-fx-background-color: #E5E7EB; -fx-border-color: #9BA2B2; -fx-border-radius: 10;">
+            <children>
+               <Label prefHeight="79.0" prefWidth="355.0" style="-fx-border-radius: 10;" text="                                Login">
+                  <font>
+                     <Font size="18.0" />
+                  </font>
+               </Label>
+            </children>
+         </TilePane>
+         <Label text="Usuario:" />
+         <TextField fx:id="txtUsuario" prefHeight="22.0" prefWidth="320.0" promptText="Ingrese el usuario" />
+         <Label text="Contraseña:" />
+         <PasswordField fx:id="txtContraseña" promptText="Ingrese la contraseña" />
+         <Label text="Rol:" />
+         <ComboBox fx:id="comboRol" prefHeight="26.0" prefWidth="220.0" promptText="Seleccionar" style="-fx-background-color: #E6F1FF; -fx-border-color: #2E8FFF; -fx-border-width: 1; -fx-cursor: hand; -fx-text-fill: #0066FF; -fx-border-radius: 8;">
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <VBox.margin>
+               <Insets />
+            </VBox.margin>
+         </ComboBox>
+      
+          <Label fx:id="lblMensaje" />
+         <HBox prefHeight="100.0" prefWidth="200.0">
+            <children>
+               <Label text="           " />
+               <Button fx:id="btnIngresar" mnemonicParsing="false" onAction="#ingresar" prefHeight="26.0" prefWidth="100.0" style="-fx-background-color: #000000; -fx-cursor: hand;" text="Ingresar" textFill="#fffcfc" />
+               <Label text="                 " />
+                <Button fx:id="btnSalir" onAction="#salir" prefHeight="26.0" prefWidth="96.0" style="-fx-cursor: hand;" text="Salir" />
+            </children>
+         </HBox>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+</Pane>

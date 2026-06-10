@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to right, #BBFCD2,#E7FEEF, #8FFAB4);" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tarea_practica.CajeroController">
+   <children>
+      <TilePane layoutX="31.0" layoutY="33.0" prefHeight="93.0" prefWidth="528.0" style="-fx-background-color: #E5E7EB; -fx-border-color: #B4B9C5; -fx-border-radius: 8;">
+         <children>
+            <Label prefHeight="95.0" prefWidth="530.0" text="                                                                   PLAN CAJERO" />
+         </children>
+      </TilePane>
+      <Label layoutX="41.0" layoutY="234.0" text="Precio:" />
+      <Label layoutX="44.0" layoutY="285.0" text="Cantidad:" />
+      <Label layoutX="44.0" layoutY="145.0" text="Producto:" />
+      <Label layoutX="41.0" layoutY="191.0" text="ID del Produccto:" />
+      <TextField layoutX="123.0" layoutY="141.0" prefHeight="26.0" prefWidth="247.0" promptText="Ingrese el nombre del producto" />
+      <TextField layoutX="146.0" layoutY="187.0" prefHeight="26.0" prefWidth="214.0" promptText="Ingrese el ID del Producto" />
+      <TextField layoutX="87.0" layoutY="230.0" prefHeight="26.0" prefWidth="175.0" promptText="Ingrese el precio" />
+      <TextField layoutX="106.0" layoutY="281.0" promptText="Ingrese la cantidad" />
+      <DatePicker layoutX="168.0" layoutY="319.0" />
+      <Label layoutX="41.0" layoutY="323.0" text="Fecha de expiracion:" />
+      <Button layoutX="236.0" layoutY="361.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="63.0" style="-fx-background-color: black;" text="Salir" textFill="#fffcfc" />
+   </children>
+</AnchorPane>
